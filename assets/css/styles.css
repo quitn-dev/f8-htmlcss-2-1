@@ -15,3 +15,76 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+:root {
+  --primary-color: #1ebfc1;
+}
+
+/* ============ Common ============ */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============ Header ============ */
+.header {
+  position: sticky;
+  top: -40px;
+  padding: 52px 0 12px;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .list {
+  display: flex;
+  margin-left: 21%;
+  gap: 39px;
+}
+
+.navbar .list a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.navbar .list a:hover {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar .actions {
+  display: flex;
+  align-items: center;
+  margin-left: 177px;
+  gap: 24px;
+}
+
+.navbar .actions .signin-btn {
+  width: 53px;
+  color: #494949;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.navbar .actions .signup-btn {
+  display: inline-block;
+  min-width: 108px;
+  padding: 15px 0;
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  text-align: center;
+}
