@@ -372,7 +372,7 @@ h2 {
 .courses .items .info {
   position: absolute;
   left: 17px;
-  bottom: -125px;
+  bottom: -124px;
   width: 325px;
   height: 195px;
   border-radius: 8px;
@@ -436,5 +436,174 @@ h2 {
   background: #1ebfc1;
   border-radius: 50%;
   transform: translateY(-30%);
+}
+
+.courses .summary {
+  display: flex;
+  justify-content: center;
+  margin-top: 389px;
+  gap: 200px;
+}
+
+.courses .summary .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses .summary .number {
+  display: block;
+  padding: 15.5px 0;
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: #0d1111;
+}
+
+.courses .summary .text {
+  padding-top: 14px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #767e7e;
+}
+
+/* ============ Review ============ */
+.review {
+  padding: 264px 0 130px;
+}
+
+.review .body {
+  display: flex;
+  justify-content: space-between;
+  height: 481px;
+}
+
+.review .content-block {
+  padding: 37px 0;
+  width: 35%;
+  height: 407px;
+}
+
+.review .content-block .quote {
+  margin-top: 27px;
+  width: 419px;
+  height: 192px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.review .content-block .sign {
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.review .content-block .sign strong {
+  color: #070707;
+  font-weight: 600;
+}
+
+.review .content-block .actions {
+  display: flex;
+  padding-top: 52px;
+  gap: 30px;
+}
+
+.review .content-block .chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: #2ac9bf;
+  border-radius: 50%;
+}
+
+.review .content-block .chevron:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.review .avt-block {
+  position: relative;
+  width: 65%;
+}
+
+.review .avatar {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review .avt-1 {
+  top: 0;
+  left: 216px;
+  width: 92px;
+  height: 92px;
+}
+
+.review .avt-2 {
+  top: 19px;
+  right: 0;
+  width: 110px;
+  height: 110px;
+}
+
+.review .avt-3 {
+  top: 258px;
+  left: 72px;
+}
+
+.review .avt-4 {
+  top: 107px;
+  left: 345px;
+  width: 235px;
+  height: 235px;
+}
+
+.review .avt-5 {
+  bottom: 0;
+  left: 284px;
+}
+
+.review .avt-6 {
+  bottom: 29px;
+  right: 32px;
+}
+
+/* ============ Ready ============ */
+.ready {
+  background: #def6f5;
+}
+
+.ready .body {
+  display: flex;
+  align-items: center;
+  height: 272px;
+}
+
+.ready .info {
+  width: 35.8%;
+}
+
+.ready .sub-title {
+  margin-top: 0;
+}
+
+.ready .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ready .btn {
+  margin-left: 410px;
 }
 /* ============ Next content ============ */
